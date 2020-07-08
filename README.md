@@ -10,7 +10,8 @@ This folder is created to store my work files for [App Academy](http://www.appac
 
 The working progress path comprises 4 sections (as of July 8th, 2020). 
 * Programming Fundamentals and Computer Science
-- [x] Numbers, booleans, strings, variables, methods, conditionals, loops, arrays, anumerables & ranges, nested loops & 2D arrays, hashes, advanced problems
+  - [x] Numbers, booleans, strings, variables, methods, conditionals, loops, arrays
+  - [ ] Enumerables & ranges, nested loops & 2D arrays, hashes, advanced problems
 * Software Engineering Foundations
 - [ ]
 * Ruby
