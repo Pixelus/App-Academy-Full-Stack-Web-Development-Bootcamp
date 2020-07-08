@@ -6,7 +6,7 @@ This folder is created to store my work files for [App Academy](http://www.appac
 
 [App Academy](http://www.appacademy.io/) is a full-stack web development bootcamp to becoming a software engineer. It focuses on Ruby on Rails, JavaScript,  React, Redux, MERN stack, Docker and GraphQL with over 1,500 hours of material (readings, videos, projects). 
 
-### Working path
+### Working Path
 
 The working progress path comprises 4 sections (as of July 8th, 2020). 
 * **Programming Fundamentals and Computer Science (50 hours)**
