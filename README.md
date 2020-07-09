@@ -33,7 +33,7 @@ The a/A curriculum is split in the following sections (as of July 8th, 2020).
 * **Software Engineering Foundations**
   - [ ] Ruby Environment Setup Terminal & Command Line, Visual Studio Code, WSL, Ubuntun, Git
   - [ ] Advanced Ruby, Scope & References, RSpec, Debugging, Blocks & Procs, Classes, Class Monkey Patching, Input/Output
-  - [ ] Object-Oriented Programming, Recursion
+  - [ ] Object-Oriented Programming, Recursion, Foundations Recap
   - [ ] Projects
 * **Ruby**
   - [ ] Enumerables & Debugging, Reference, Recursion, Git, Data Structures
