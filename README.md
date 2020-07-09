@@ -1,42 +1,43 @@
-## App Academy Bootcamp
+## App Academy Full-Stack Web Development Bootcamp
 
-This folder is created to store my work files for [App Academy](http://www.appacademy.io/). I'm currently working on the bootcamp with the goal to become a software developer and these files reflect my progress through my homework and my projects.
+This folder is created to store my work files for [App Academy Open](https://open.appacademy.io/). I'm currently working on the bootcamp with the goal to become a software developer and these files reflect my progress through my exercices, coding challenges and my projects.
+The repo will be FREQUENTLY updated with my solutions to all the exercises and challenges from the curriculum.
 
 ### What is App Academy
 
-[App Academy](http://www.appacademy.io/) is a full-stack web development bootcamp to becoming a software engineer. It focuses on Ruby on Rails, JavaScript,  React, Redux, MERN stack, Docker and GraphQL with over 1,500 hours of material (readings, videos, projects). 
+[App Academy Open](https://open.appacademy.io/) is a full-stack web development bootcamp to becoming a software engineer. It covers ~1500 hours of material including fundamentals such as data structures and algorithms, design patterns, scalability, OOP, TDD, computational complexity, and software engineering best practices. Programming languages and technologies include Ruby on Rails, JavaScript, React-Redux, SQL, Git, HTML and CSS.
 
 ### Working Path
 
-The working progress path comprises 4 sections (as of July 8th, 2020). 
-* **Programming Fundamentals and Computer Science (50 hours)**
+The a/A curriculum is split in the following sections (as of July 8th, 2020). 
+* **Programming Fundamentals and Computer Science**
   - [x] Numbers, Booleans, Strings, Variables, Methods, Conditionals, Loops, Arrays
   - [ ] Enumerables & Ranges, Nested Loops & 2D Arrays, Hashes, Advanced Problems
-* **Software Engineering Foundations (120 hours)**
+* **Software Engineering Foundations**
   - [ ] Ruby Environment Setup Terminal & Command Line, Visual Studio Code, WSL, Ubuntun, Git
   - [ ] Advanced Ruby, Scope & References, RSpec, Debugging, Blocks & Procs, Classes, Class Monkey Patching, Input/Output
   - [ ] Object-Oriented Programming, Recursion
   - [ ] Projects
-* **Ruby (200 hours)**
+* **Ruby**
   - [ ] Enumerables & Debugging, Reference, Recursion, Git, Data Structures
   - [ ] OOP, RSpec & TDD, Big-O, LRU Cache
-* **SQL (100 hours)**
+* **SQL**
   - [ ] SQL Fundamentals
   - [ ] Object Relational Model
   - [ ] Active Record, Metaprogramming, CSS, Rails, Macros
-* **Rails (150 hours)**
+* **Rails**
   - [ ] API, Routes & Controllers, Rails Views, Rails Auth
   - [ ] Testing with Rails
   - [ ] Rails & CSS
   - [ ] Advanced Rails forms, Rails Lite
-* **JavaScript (100 hours)**
+* **JavaScript**
   - [ ] JavaScript Fundamentals
   - [ ] The Event loop
   - [ ] Object-oriented JavaScript
   - [ ] jQuery
   - [ ] AJAX
   - [ ] JavaScript DOM API
-* **React (120 hours)**
+* **React**
   - [ ] React Fundamentals
   - [ ] Redux Fundamentals
   - [ ] Middleware and Thunks
@@ -44,13 +45,13 @@ The working progress path comprises 4 sections (as of July 8th, 2020).
   - [ ] Frontend Routing with React
   - [ ] Frontend Auth
   - [ ] Completing Bench BnB
-* **Full Stack Project Prep (80 hours)**
+* **Full Stack Project**
   - [ ] Tentative Project Proposal
   - [ ] Design Documents
   - [ ] Culture Curriculum
   - [ ] Project
   - [ ] Resources
-* **MERN Stack (80 hours)**
+* **MERN Stack**
   - [ ] Git Workflow
   - [ ] MERN Fundamentals
   - [ ] NodeJS/Express/MongoDB/React
@@ -61,7 +62,7 @@ The working progress path comprises 4 sections (as of July 8th, 2020).
   - [ ] Frontend
   - [ ] Deploying You App
   - [ ] MERN Project Proposal
-* **Full-Stack (150 hours)**
+* **Full-Stack Job Search**
   - [ ] MERN
   - [ ] JavaScript
   - [ ] Technical Intro
@@ -75,16 +76,16 @@ The working progress path comprises 4 sections (as of July 8th, 2020).
   - [ ] Negotiations
   - [ ] System Design
   - [ ] Additional Tech Topics
-* **Docker (60 hours)**
+* **Docker**
   - [ ] Docker and Containers
   - [ ] Images and the Dockerfile
   - [ ] Docker Compose & Hosting with Heroku
-* **GraphQL (60 hours)**
+* **GraphQL**
    - [ ] Querying & Server Setup
    - [ ] GraphQL and React
    - [ ] User Authentification
    - [ ] Frontend User Auth
-* **Data Structures and Algorithms (250 hours)**
+* **Data Structures and Algorithms**
    - [ ] Complexity Analysis
    - [ ] Recursion
    - [ ] Dynamic Programming: Memoization
