@@ -10,9 +10,11 @@ The repo will be FREQUENTLY updated with my solutions to all the exercises and c
 ### App Academy Curriculum
 
 Coursework for App Academy, taken via a/A Open which is a Remote/Part-time course.
+
 The a/A curriculum is split in the following sections (as of July 8th, 2020). 
 
 **Started**: July 2020
+
 **Completed**: -
 
  Courses       | Status        | Project Repo  
