@@ -12,8 +12,8 @@ The repo will be FREQUENTLY updated with my solutions to all the exercises and c
 The a/A curriculum is split in the following sections (as of July 8th, 2020). 
 
 | Courses       | Status        | Project Repo  |
-| ----------------------- |:-------------:| -----:|
-| **Programming Fundamentals and Computer Science**      | right-aligned | $1600 |
+| ------------- |:-------------:| -------------:|
+| **Programming Fundamentals and Computer Science** |  | [Coding challenges](https://github.com/Pixelus/App-Academy-Full-Stack-Web-Development-Bootcamp/tree/master/Intro%20To%20Programming) |
 | Numbers, Booleans, Strings, Variables, Methods, Conditionals, Loops, Arrays      | centered      |   $12 |
 | Enumerables & Ranges, Nested Loops & 2D Arrays, Hashes, Advanced Problems | are neat      |    $1 |
 
