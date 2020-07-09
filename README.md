@@ -11,21 +11,21 @@ The repo will be FREQUENTLY updated with my solutions to all the exercises and c
 
 The a/A curriculum is split in the following sections (as of July 8th, 2020). 
 
-| Courses       | Status        | Project Repo  
-| ------------- |:-------------:| -------------:
-| **Programming Fundamentals and Computer Science** | In Progress | [Coding Challenges](https://github.com/Pixelus/App-Academy-Full-Stack-Web-Development-Bootcamp/tree/master/Intro%20To%20Programming) 
-| **Software Engineering Foundations** |       |    |
-| **Ruby** |       |     |
-| **SQL** |       |     |
-| **Rails** |       |     |
-| **JavaScript** |       |     |
-| **React** |       |     |
-| **Full Stack Project** |       |     |
-| **MERN Stack** |       |     |
-| **Full-Stack Job Search** |       |     |
-| **Docker** |       |     |
-| **GraphQL** |       |     |
-| **Data Structures and Algorithms** |       |     |
+ Courses       | Status        | Project Repo  
+ ------------- |:-------------:| -------------:
+ **Programming Fundamentals and Computer Science** | In Progress | [Coding Challenges](https://github.com/Pixelus/App-Academy-Full-Stack-Web-Development-Bootcamp/tree/master/Intro%20To%20Programming) 
+ **Software Engineering Foundations** |       |    
+ **Ruby** |       |     
+ **SQL** |       |     
+ **Rails** |       |     
+ **JavaScript** |       |     
+ **React** |       |     |
+ **Full Stack Project** |       |     
+ **MERN Stack** |       |     
+ **Full-Stack Job Search** |       |     
+ **Docker** |       |     
+ **GraphQL** |       |     
+ **Data Structures and Algorithms** |       |     
 
 * **Programming Fundamentals and Computer Science**
   - [x] Numbers, Booleans, Strings, Variables, Methods, Conditionals, Loops, Arrays
