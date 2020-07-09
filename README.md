@@ -13,9 +13,7 @@ The a/A curriculum is split in the following sections (as of July 8th, 2020).
 
 | Courses       | Status        | Project Repo  |
 | ------------- |:-------------:| -------------:|
-
 | **Programming Fundamentals and Computer Science** |  | [Coding Challenges](https://github.com/Pixelus/App-Academy-Full-Stack-Web-Development-Bootcamp/tree/master/Intro%20To%20Programming) |
-
 | **Software Engineering Foundations** |       |    |
 | **Ruby** |       |     |
 | **SQL** |       |     |
