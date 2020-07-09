@@ -10,6 +10,13 @@ The repo will be FREQUENTLY updated with my solutions to all the exercises and c
 ### Working Path
 
 The a/A curriculum is split in the following sections (as of July 8th, 2020). 
+
+| Courses       | Status        | Project Repo  |
+| ----------------------- |:-------------:| -----:|
+| **Programming Fundamentals and Computer Science**      | right-aligned | $1600 |
+| Numbers, Booleans, Strings, Variables, Methods, Conditionals, Loops, Arrays      | centered      |   $12 |
+| Enumerables & Ranges, Nested Loops & 2D Arrays, Hashes, Advanced Problems | are neat      |    $1 |
+
 * **Programming Fundamentals and Computer Science**
   - [x] Numbers, Booleans, Strings, Variables, Methods, Conditionals, Loops, Arrays
   - [ ] Enumerables & Ranges, Nested Loops & 2D Arrays, Hashes, Advanced Problems
