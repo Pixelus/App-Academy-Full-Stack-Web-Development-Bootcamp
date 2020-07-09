@@ -3,7 +3,7 @@
 This folder is created to store my work files for [App Academy Open](https://open.appacademy.io/). I'm currently working on the bootcamp with the goal to become a software developer and these files reflect my progress through my exercices, coding challenges and my projects.
 The repo will be FREQUENTLY updated with my solutions to all the exercises and challenges from the curriculum.
 
-### What is App Academy
+### What is App Academy Open
 
 [App Academy Open](https://open.appacademy.io/) is a full-stack web development bootcamp to becoming a software engineer. It covers ~1500 hours of material including fundamentals such as data structures and algorithms, design patterns, scalability, OOP, TDD, computational complexity, and software engineering best practices. Programming languages and technologies include Ruby on Rails, JavaScript, React-Redux, SQL, Git, HTML and CSS.
 
