@@ -17,7 +17,7 @@ The a/A course is split into a few major sections: Ruby, SQL, Rails, JavaScript 
 
  Courses       | Topics        | Status        | Project Repo  
  ------------- |:-------------:|:-------------:|:-------------:
- **Programming Fundamentals and Computer Science** | Numbers, Booleans, Strings, Variables, Methods, Conditionals, Loops, Arrays, Enumerables & Ranges, Nested Loops & 2D Arrays, Hashes, Advanced Problems | In Progress | [Intro to Programming](https://github.com/Pixelus/App-Academy-Full-Stack-Web-Development-Bootcamp/tree/master/Programming%20Fundamentals%20and%20Computer%20Science/Intro%20To%20Programming) 
+ **Programming Fundamentals and Computer Science** | Numbers, Booleans, Strings, Variables, Methods, Conditionals, Loops, Arrays, Enumerables & Ranges, Nested Loops & 2D Arrays, Hashes, Advanced Problems :| In Progress | [Intro to Programming](https://github.com/Pixelus/App-Academy-Full-Stack-Web-Development-Bootcamp/tree/master/Programming%20Fundamentals%20and%20Computer%20Science/Intro%20To%20Programming) 
  **Software Engineering Foundations** |       :|       |    
  **Ruby** |       :|       |     
  **SQL** |       :|       |     
