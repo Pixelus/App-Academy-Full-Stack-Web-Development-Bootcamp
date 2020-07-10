@@ -1,13 +1,16 @@
-# Write a method rotate_array that takes in an array and a number. The method should return the array after rotating
-# the elements the specified number of times. A single rotation takes the last element of the array and moves it to the front.
+# Write a method rotate_array that takes in an array and a number. The method should 
+# return the array after rotating the elements the specified number of times. A single 
+# rotation takes the last element of the array and moves it to the front.
 
 def rotate_array(arr, num)
-  rotated_arr = []
   i = 0
-  while (i < arr.length)
-    rotated_arr = rotated_arr[i] + arr[i]
+  num.times do
+    # Takes the last element
+    last_element = arr.pop()
+    # Moves the last element to the front
+    arr.unshift(last_element)
   end
-  return rotated_arr
+  return arr
 end
 
 print rotate_array([ "Matt", "Danny", "Mashu", "Matthias" ], 1) # => [ "Matthias", "Matt", "Danny", "Mashu" ]
