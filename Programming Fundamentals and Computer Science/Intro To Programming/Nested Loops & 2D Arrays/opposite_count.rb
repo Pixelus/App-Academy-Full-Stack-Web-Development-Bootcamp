@@ -1,14 +1,17 @@
+# Write a method opposite_count that takes in an array of unique numbers. 
+# The method should return the number of pairs of elements that sum to 0.
+
 def opposite_count(nums)
   pairs = 0
   
-  nums.each do |num1|
-    nums.each do |num2|
-      if num1 + num2 == 0
-        puts num1 + num2
-        pairs += 1
-      end
-    end
-  end
+  # nums.each do |num1|
+  #   nums.each do |num2|
+  #     if num1 + num2 == 0
+  #       puts num1 + num2
+  #       pairs += 1
+  #     end
+  #   end
+  # end
   
   return pairs
 end

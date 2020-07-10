@@ -3,7 +3,14 @@
 # 2 elements. See the examples.
 
 def two_d_translate(arr)
-
+  big_array = []
+  arr.each do |ele| 
+    arr.each_with_index do |ele, i|
+      big_array += ele
+      p arr[i][1]
+    end
+  end
+  return big_array
 end
 
 arr_1 = [
