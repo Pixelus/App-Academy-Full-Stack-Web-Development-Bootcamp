@@ -13,7 +13,7 @@ Coursework for App Academy, taken via a/A Open which is a Remote/Part-time cours
 
 The a/A course is split into a few major sections: Ruby, SQL, Rails, JavaScript and React (as of July 8th, 2020). 
 
-**Started**: July 2020
+_**Started**: July 2020_
 
  Courses       | Topics        | Status        | Project Repo  
  :------------- |:-------------|:-------------:|:-------------:
