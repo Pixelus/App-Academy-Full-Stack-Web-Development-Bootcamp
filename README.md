@@ -17,108 +17,16 @@ The a/A course is split into a few major sections: Ruby, SQL, Rails, JavaScript 
 
  Courses       | Topics        | Status        | Project Repo  
  :------------- |:-------------|:-------------:|:-------------:
- **Programming Fundamentals and Computer Science** |Numbers, Booleans, Strings, Variables, Methods, Conditionals, Loops, Arrays, Enumerables & Ranges, Nested Loops & 2D Arrays, Hashes, Advanced Problems | In Progress | [Intro to Programming](https://github.com/Pixelus/App-Academy-Full-Stack-Web-Development-Bootcamp/tree/master/Programming%20Fundamentals%20and%20Computer%20Science/Intro%20To%20Programming) 
- **Software Engineering Foundations** |Ruby Environment Setup Terminal & Command Line, Visual Studio Code, WSL, Ubuntun, Git, Advanced Ruby, Scope & References, RSpec, Debugging, Blocks & Procs, Classes, Class Monkey Patching, Input/Output, Object-Oriented Programming, Recursion, Foundations Recap, Projects      |       |    
- **Ruby** |       |       |     
- **SQL** |       |       |     
- **Rails** |       |       |     
- **JavaScript** |       |       |     
- **React** |       |     |       |
- **Full Stack Project** |       |       |     
- **MERN Stack** |       |       |     
- **Full-Stack Job Search** |       |       |     
- **Docker** |       |       |     
- **GraphQL** |       |       |     
- **Data Structures and Algorithms** |       |       |     
-
-* **Programming Fundamentals and Computer Science**
-  - [x] Numbers, Booleans, Strings, Variables, Methods, Conditionals, Loops, Arrays
-  - [ ] Enumerables & Ranges, Nested Loops & 2D Arrays, Hashes, Advanced Problems
-* **Software Engineering Foundations**
-  - [ ] Ruby Environment Setup Terminal & Command Line, Visual Studio Code, WSL, Ubuntun, Git
-  - [ ] Advanced Ruby, Scope & References, RSpec, Debugging, Blocks & Procs, Classes, Class Monkey Patching, Input/Output
-  - [ ] Object-Oriented Programming, Recursion, Foundations Recap
-  - [ ] Projects
-* **Ruby**
-  - [ ] Enumerables & Debugging, Reference, Recursion, Git, Data Structures
-  - [ ] OOP, RSpec & TDD, Big-O, LRU Cache
-* **SQL**
-  - [ ] SQL Fundamentals
-  - [ ] Object Relational Model
-  - [ ] Active Record, Metaprogramming, CSS, Rails, Macros
-* **Rails**
-  - [ ] API, Routes & Controllers, Rails Views, Rails Auth
-  - [ ] Testing with Rails
-  - [ ] Rails & CSS
-  - [ ] Advanced Rails forms, Rails Lite
-* **JavaScript**
-  - [ ] JavaScript Fundamentals
-  - [ ] The Event loop
-  - [ ] Object-oriented JavaScript
-  - [ ] jQuery
-  - [ ] AJAX
-  - [ ] JavaScript DOM API
-* **React**
-  - [ ] React Fundamentals
-  - [ ] Redux Fundamentals
-  - [ ] Middleware and Thunks
-  - [ ] Redux and the Rails API
-  - [ ] Frontend Routing with React
-  - [ ] Frontend Auth
-  - [ ] Completing Bench BnB
-* **Full Stack Project**
-  - [ ] Tentative Project Proposal
-  - [ ] Design Documents
-  - [ ] Culture Curriculum
-  - [ ] Project
-  - [ ] Resources
-* **MERN Stack**
-  - [ ] Git Workflow
-  - [ ] MERN Fundamentals
-  - [ ] NodeJS/Express/MongoDB/React
-  - [ ] Using MongoDB
-  - [ ] User Authentification
-  - [ ] Validations
-  - [ ] Backend Tweets
-  - [ ] Frontend
-  - [ ] Deploying You App
-  - [ ] MERN Project Proposal
-* **Full-Stack Job Search**
-  - [ ] MERN
-  - [ ] JavaScript
-  - [ ] Technical Intro
-  - [ ] Stacks/Queues & Binary Search
-  - [ ] Tree & Binary Search Trees
-  - [ ] Linked Lists
-  - [ ] Graphs & Heaps
-  - [ ] Written Presence
-  - [ ] Behavioral Interviewing
-  - [ ] Networking
-  - [ ] Negotiations
-  - [ ] System Design
-  - [ ] Additional Tech Topics
-* **Docker**
-  - [ ] Docker and Containers
-  - [ ] Images and the Dockerfile
-  - [ ] Docker Compose & Hosting with Heroku
-* **GraphQL**
-   - [ ] Querying & Server Setup
-   - [ ] GraphQL and React
-   - [ ] User Authentification
-   - [ ] Frontend User Auth
-* **Data Structures and Algorithms**
-   - [ ] Complexity Analysis
-   - [ ] Recursion
-   - [ ] Dynamic Programming: Memoization
-   - [ ] Dynamic Programming: Tabulation
-   - [ ] Nalve Sorting Algorithms
-   - [ ] Efficient Sorting Algorithms
-   - [ ] Binary Search
-   - [ ] Linked Lists
-   - [ ] Stacks and Queues
-   - [ ] Trees
-   - [ ] Binary Search Trees
-   - [ ] Graphs
-   - [ ] Heaps
-   - [ ] Tries
-   - [ ] Path Finding
+ **Programming Fundamentals and Computer Science** | Numbers, Booleans, Strings, Variables, Methods, Conditionals, Loops, Arrays, Enumerables & Ranges, Nested Loops & 2D Arrays, Hashes, Advanced Problems | In Progress | [Intro to Programming](https://github.com/Pixelus/App-Academy-Full-Stack-Web-Development-Bootcamp/tree/master/Programming%20Fundamentals%20and%20Computer%20Science/Intro%20To%20Programming) 
+ **Software Engineering Foundations** | Ruby Environment Setup Terminal & Command Line, Visual Studio Code, WSL, Ubuntun, Git, Advanced Ruby, Scope & References, RSpec, Debugging, Blocks & Procs, Classes, Class Monkey Patching, Input/Output, Object-Oriented Programming, Recursion, Foundations Recap, Projects |       |    
+ **Ruby** | Enumerables & Debugging, Reference, Recursion, Git, Data Structures, OOP, RSpec & TDD, Big-O, LRU Cache |       |     
+ **SQL** | SQL Fundamentals, Object Relational Model, Active Record, Metaprogramming, CSS, Rails, Macros |       |     
+ **Rails** | API, Routes & Controllers, Rails Views, Rails Auth, Testing with Rails, Rails & CSS, Advanced Rails Forms, Rails Lite |       |     
+ **JavaScript** | JavaScript Fundamentals, The Event loop, Object-oriented JavaScript, jQuery, AJAX, JavaScript DOM API |       |     
+ **React** | React Fundamentals, Redux Fundamentals, Middleware and Thunks, Redux and the Rails API, Frontend Routing with React, Frontend Auth, Completing Bench BnB |     |       |
+ **Full Stack Project** | Tentative Project Proposal, Design Documents, Culture Curriculum, Resources, project |       |     
+ **MERN Stack Curriculum** | Git Workflow, MERN Fundamentals, NodeJS/Express/MongoDB/React, Using MongoDB, User Authentification, Validations, Backend Tweets, Frontend, Deploying You App, MERN Project Proposal |       |     
+ **Full-Stack Job Search** | MERN, JavaScript, Technical Intro, Stacks/Queues & Binary Search, Tree & Binary Search Trees, Linked Lists, Graphs & Heaps, Written Presence, Behavioral Interviewing, Networking, Negotiations, System Design, Additional Tech Topics |       |     
+ **Docker Curriculum** | Docker and Containers, Images and the Dockerfile, Docker Compose & Hosting with Heroku |       |     
+ **GraphQL Curriculum** | Querying & Server Setup, GraphQL and React, User Authentification, Frontend User Auth |       |     
+ **Data Structures and Algorithms** | Complexity Analysis, Recursion, Dynamic Programming: Memoization, Dynamic Programming: Tabulation, Nalve Sorting Algorithms, Efficient Sorting Algorithms, Binary Search, Linked Lists, Stacks and Queues, Trees, Binary Search Trees, Graphs, Heaps, Tries, Path Finding |       |     
