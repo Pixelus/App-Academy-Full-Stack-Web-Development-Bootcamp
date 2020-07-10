@@ -5,16 +5,15 @@
 def reverse_words(sent)
   words = sent.split(" ")
   reversed_sent = ""
-  p words
-  	
-  	words.each do |word|
-      words.split("")
-      
-      p words
-      #reversed_sent.unshift(word)
-    end
-  
+  words.each {|word| reversed_sent = reversed_sent + " " + reverse_word(word)}
   return reversed_sent
+end
+
+def reverse_word(word)
+  chars = word.split("")
+  reversed_word = ""
+  chars.each {|char| reversed_word = char + reversed_word}
+  return reversed_word
 end
 
 puts reverse_words('keep coding') # => 'peek gnidoc'
