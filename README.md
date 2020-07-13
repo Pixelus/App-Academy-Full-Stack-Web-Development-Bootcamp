@@ -10,9 +10,9 @@ The repositorie will be FREQUENTLY updated with my solutions to all the exercise
 ### App Academy Prep Work & Independent Studies
 
  * **[Introduction to Ruby](https://leetcode.com/explore/learn/card/become-a-web-developer/)** on LeetCode 
- * Book Study **[The Well-Grounded Rubyist](https://www.amazon.fr/gp/product/1617295213/ref=ox_sc_act_title_1?smid=A1X6FK5RDHNB96&psc=1)**
+ * Book Study **[The Well-Grounded Rubyist](https://www.amazon.fr/gp/product/1617295213/ref=ox_sc_act_title_1?smid=A1X6FK5RDHNB96&psc=1)** Third Edition
 
-_The Well-Grounded Rubyist, Third Edition is a perfect tutorial for newcomers to Ruby and a great way for experienced Rubyists to deepen their understanding of the language.
+ _The Well-Grounded Rubyist, Third Edition is a perfect tutorial for newcomers to Ruby and a great way for experienced Rubyists to deepen their understanding of the language.
 
 ### App Academy Curriculum
 
