@@ -9,7 +9,7 @@ The repositorie will be FREQUENTLY updated with my solutions to all the exercise
 
 ### App Academy Prep Work
 
-**Introduction to Ruby** | **Precourse Work on [LeetCode](https://leetcode.com/explore/learn/card/become-a-web-developer/)** - Variables, Numbers, Methods, Data Structures: Arrays, Data Structures: Strings, Logic, Control Flow | In Progress | [Exercises]()
+**Introduction to Ruby** on [LeetCode](https://leetcode.com/explore/learn/card/become-a-web-developer/)** - Precourse Work with Variables, Numbers, Methods, Data Structures: Arrays, Data Structures: Strings, Logic, Control Flow - [Exercises]()
 
 ### App Academy Curriculum
 
