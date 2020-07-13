@@ -7,6 +7,11 @@ The repositorie will be FREQUENTLY updated with my solutions to all the exercise
 
 [App Academy Open](https://open.appacademy.io/) is a full-stack web development bootcamp to becoming a software engineer. It covers ~1500 hours of material including fundamentals such as data structures and algorithms, design patterns, scalability, OOP, TDD, computational complexity, and software engineering best practices. Programming languages and technologies include Ruby on Rails, JavaScript, React-Redux, SQL, Git, HTML and CSS.
 
+### App Academy Prep Work & Independent Studies
+
+ * **[Introduction to Ruby](https://leetcode.com/explore/learn/card/become-a-web-developer/)** on LeetCode 
+ * Book **[The Well-Grounded Rubyist](https://www.amazon.fr/gp/product/1617295213/ref=ox_sc_act_title_1?smid=A1X6FK5RDHNB96&psc=1)**, Third Edition, a perfect tutorial for newcomers to Ruby and a great way for experienced Rubyists to deepen their understanding of the language.
+
 ### App Academy Curriculum
 
 Coursework for App Academy, taken via a/A Open which is a Remote/Part-time course.
@@ -17,6 +22,7 @@ _**Started**: July 2020_
 
  Courses       | Topics        | Status        | Project Repo  
  :------------- |:-------------|:-------------:|:-------------:
+ **Introduction to Ruby** | **Precourse Work on [LeetCode](https://leetcode.com/explore/learn/card/become-a-web-developer/)** - Variables, Numbers, Methods, Data Structures: Arrays, Data Structures: Strings, Logic, Control Flow | Completed | [Introduction to Ruby]()
  **Programming Fundamentals and Computer Science** | Numbers, Booleans, Strings, Variables, Methods, Conditionals, Loops, Arrays, Enumerables & Ranges, Nested Loops & 2D Arrays, Hashes, Advanced Problems | In Progress | [Intro to Programming](https://github.com/Pixelus/App-Academy-Full-Stack-Web-Development-Bootcamp/tree/master/Programming%20Fundamentals%20and%20Computer%20Science/Intro%20To%20Programming) 
  **Software Engineering Foundations** | Ruby Environment Setup Terminal & Command Line, Visual Studio Code, WSL, Ubuntun, Git, Advanced Ruby, Scope & References, RSpec, Debugging, Blocks & Procs, Classes, Class Monkey Patching, Input/Output, Object-Oriented Programming, Recursion, Foundations Recap, Projects |       |    
  **Ruby** | Enumerables & Debugging, Reference, Recursion, Git, Data Structures, OOP, RSpec & TDD, Big-O, LRU Cache |       |     
