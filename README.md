@@ -7,7 +7,7 @@ The repositorie will be FREQUENTLY updated with my solutions to all the exercise
 
 [App Academy Open](https://open.appacademy.io/) is a full-stack web development bootcamp to becoming a software engineer. It covers ~1500 hours of material including fundamentals such as data structures and algorithms, design patterns, scalability, OOP, TDD, computational complexity, and software engineering best practices. Programming languages and technologies include Ruby on Rails, JavaScript, React-Redux, SQL, Git, HTML and CSS.
 
-### App Academy Prep Work & Independent Studies
+### App Academy Prep Work & Independent Study
 
  * **[Introduction to Ruby](https://leetcode.com/explore/learn/card/become-a-web-developer/)** on LeetCode 
  * Book **[The Well-Grounded Rubyist](https://www.amazon.fr/gp/product/1617295213/ref=ox_sc_act_title_1?smid=A1X6FK5RDHNB96&psc=1)**, Third Edition, a perfect tutorial for newcomers to Ruby and a great way for experienced Rubyists to deepen their understanding of the language.
