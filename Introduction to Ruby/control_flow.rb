@@ -56,7 +56,14 @@ end
 # separator as the second argument.
 def my_join(arr, separator)
   # your code goes here
-  arr.join(separator)
+  join = ""
+  arr.each_with_index do |ele, i|
+    join << arr[i] + separator 
+  end
+  if join[-1] == separator
+    join = join[0...-1]
+  end
+  return join
 end
 
 # Return an array of integers from 1 to 30 (inclusive), except for each multiple of 3 replace the integer with "fizz", for each multiple of 5 replace the integer with "buzz", and for each multiple of both 3 and 5, replace the integer with "fizzbuzz".
