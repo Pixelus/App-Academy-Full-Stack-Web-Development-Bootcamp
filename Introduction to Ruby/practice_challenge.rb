@@ -1,24 +1,54 @@
 # Define a method that returns the sum of all the non-negative integers up to and including its argument.
 # sum_to(3) => 6
 def sum_to(int)
-
+  sum = 0
+  i = 0
+  while i <= int
+    sum += i
+    i += 1
+  end
+  return sum
 end
 
 # Define a method, #e_words(str), that accepts a string as an argument. Your method return the number of words in the string that end with the letter "e".
 # e_words("tree") => 1
 # e_words("Let be be finale of seem.") => 3
 def e_words(str)
-
+  words = str.split(" ")
+  count = 0
+  words.each do |word|
+    if word[-1] == "e"
+      count += 1
+    end
+  end
+  return count
 end
 
 # A magic number is a number whose digits, when added together, sum to 7, e.g., 34. Define a method that returns an array of the first n magic numbers. You may wish to write a helper method (magic_number?) that returns a boolean indicating whether a number is magic. This problem is harder than anything you'll receive on the coding assessment.
 # magic_numbers(3) => [7, 16, 25]
 def magic_number?(n)
-
+  magic = false
+  number = n.to_s.split()
+  number.each_with_index do |int, i|
+    num1 = int[i]
+    num2 = int[i + 1]
+    if num1.to_i + num2.to_i == 7
+      magic = true
+    end
+  end
+  return magic
 end
 
 def magic_numbers(n)
-
+  magic_arr = []
+  i = 0
+  while magic_arr.length < n
+    if magic_number?(i) == true
+      magic_arr << i
+    end  
+    i += 1
+  end
+  return magic_arr
 end
 
 # DO NOT MODIFY CODE BELOW
