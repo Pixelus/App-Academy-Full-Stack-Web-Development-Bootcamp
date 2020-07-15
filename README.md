@@ -1,7 +1,7 @@
 ## App Academy Full-Stack Web Development Bootcamp
 
 This folder is created to store my work files for [App Academy Open](https://open.appacademy.io/). I'm currently working on the bootcamp with the goal to become a software developer and these files reflect my progress through my exercices, coding challenges and my projects.
-The repositorie will be FREQUENTLY updated with my solutions to all the exercises and challenges from the curriculum.
+The repository will be frequently updated with my solutions to all the exercises and challenges from the curriculum.
 
 ### What is App Academy Open
 
@@ -24,7 +24,7 @@ _**Started**: July 2020_
  :------------- |:-------------|:-------------:|:-------------:
  **Introduction to Ruby** | **Precourse Work on [LeetCode](https://leetcode.com/explore/learn/card/become-a-web-developer/)** - Variables, Numbers, Methods, Data Structures: Arrays, Data Structures: Strings, Logic, Control Flow | Completed | [Introduction to Ruby](https://github.com/Pixelus/App-Academy-Full-Stack-Web-Development-Bootcamp/tree/master/Introduction%20to%20Ruby)
  **Programming Fundamentals and Computer Science** | Numbers, Booleans, Strings, Variables, Methods, Conditionals, Loops, Arrays, Enumerables & Ranges, Nested Loops & 2D Arrays, Hashes, Advanced Problems | In Progress | [Intro to Programming](https://github.com/Pixelus/App-Academy-Full-Stack-Web-Development-Bootcamp/tree/master/Programming%20Fundamentals%20and%20Computer%20Science/Intro%20To%20Programming) 
- **Software Engineering Foundations** | Ruby Environment Setup Terminal & Command Line, Visual Studio Code, WSL, Ubuntun, Git, Advanced Ruby, Scope & References, RSpec, Debugging, Blocks & Procs, Classes, Class Monkey Patching, Input/Output, Object-Oriented Programming, Recursion, Foundations Recap, Projects |       |    
+ **Software Engineering Foundations** | Ruby Environment Setup Terminal & Command Line, Visual Studio Code, WSL, Unbuntu, Git, Advanced Ruby, Scope & References, RSpec, Debugging, Blocks & Procs, Classes, Class Monkey Patching, Input/Output, Object-Oriented Programming, Recursion, Foundations Recap, Projects |       |    
  **Ruby** | Enumerables & Debugging, Reference, Recursion, Git, Data Structures, OOP, RSpec & TDD, Big-O, LRU Cache |       |     
  **SQL** | SQL Fundamentals, Object Relational Model, Active Record, Metaprogramming, CSS, Rails, Macros |       |     
  **Rails** | API, Routes & Controllers, Rails Views, Rails Auth, Testing with Rails, Rails & CSS, Advanced Rails Forms, Rails Lite |       |     
