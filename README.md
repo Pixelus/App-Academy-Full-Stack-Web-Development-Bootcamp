@@ -1,7 +1,7 @@
 ## App Academy Full-Stack Web Development Bootcamp
 
 This folder is created to store my work files for [App Academy Open](https://open.appacademy.io/). I'm currently working on the bootcamp with the goal to become a software developer and these files reflect my progress through my exercices, coding challenges and my projects.
-The repository will be FREQUENTLY updated with my solutions to all the exercises and challenges from the curriculum.
+The repository will be frequently updated with my solutions to all the exercises and challenges from the curriculum.
 
 ### What is App Academy Open
 
