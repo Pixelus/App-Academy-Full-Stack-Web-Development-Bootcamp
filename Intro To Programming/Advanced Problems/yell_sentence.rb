@@ -2,8 +2,7 @@
 # See the examples. Use map to solve this.
 
 def yell_sentence(sent)
-  str = sent.split(" ").map { |word| (word.upcase + "!") }
-  return str.join(" ")
+  return sent.split(" ").map { |word| (word.upcase + "!") }.join(" ")
 end
 
 puts yell_sentence("I have a bad feeling about this") #=> "I! HAVE! A! BAD! FEELING! ABOUT! THIS!"
