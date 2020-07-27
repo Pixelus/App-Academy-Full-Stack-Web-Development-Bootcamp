@@ -21,24 +21,35 @@ def merge(hash_1, hash_2)
 end
 
 def censor(sentence, arr)
-    vowels = "aeiou"
-    sentence.split(" ").each do |word|
-        arr.each do |ele|
-            if word.downcase.include?(ele) 
-                puts "e"
-                # ele.each_char.with_index do |char, i|
-                #     if vowels.include?(ele)
-                #         puts char
-                #     end
-                # end
-            end
+    words = sentence.split(" ")
+    star_words = words.map do |word|
+        if arr.include?(word.downcase)
+            star_vowels(word)
+        else
+            word
         end
+    end 
+    star_words.join(" ")
+end
+
+def star_vowels(str)
+    vowels = "aeiou"
+    new_str = ""
+    str.each_char.with_index do |char, i|
+        if vowels.include?(char.downcase)
+            char = "*"
+        else
+            char
+        end
+        new_str << char 
     end
+    new_str
 end
 
 def power_of_two?(num)
-
+    if (num / 4) % 4 == 0
+        true
+    else
+        false
+    end
 end
-
-puts censor("Gosh darn it", ["gosh", "darn", "shoot"])#("G*sh d*rn it")
-puts censor("SHUT THE FRONT DOOR", ["door"])#("SHUT THE FRONT D**R")
