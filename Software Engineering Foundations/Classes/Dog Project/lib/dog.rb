@@ -45,6 +45,3 @@ class Dog
         false
     end
 end
-
-dog = Dog.new("Fido", "German Shepard", 3, "Bork!", ["Bacon", "Chicken"])
-dog.favorite_food?("bacon")
