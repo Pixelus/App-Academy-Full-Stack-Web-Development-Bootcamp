@@ -1,6 +1,12 @@
 class Board
     attr_reader :size
 
+    def self.print_grid(grid)
+        grid.each do |row|
+            puts row.join(" ")
+        end
+    end
+
     def initialize(n)
         @grid = Array.new(n, :N) {Array.new(n, :N)}
         @size = n * n
@@ -21,30 +27,43 @@ class Board
     end
 
     def attack(position)
-        @grid.[] = (position)
-        #@grid.[]=(position, value)
-        #@grid.[]=(position, value)
-        #board[pos] = :S       # this line...
-        #board.[]=(pos, :S)    # is same as this line. :)
+        if self[position] == :S
+            self[position] = :H
+            puts "you sunk my battleship!"
+            true
+        else
+            self[position] = :X
+            false
+        end
     end
 
     def place_random_ships
-
+        total_ships = @size * 0.25
+        while self.num_ships < total_ships
+            rand_row = rand(0...@grid.length)
+            rand_col = rand(0...@grid.length)
+            position = [rand_row, rand_col]
+            self[position] = :S
+        end
     end
 
     def hidden_ships_grid
-
-    end
-
-    def self.print_grid()
-
+        @grid.map do |row|
+            row.map do |ele|
+                if ele == :S
+                    :N
+                else
+                    ele
+                end
+            end
+        end
     end
 
     def cheat
-
+        Board.print_grid(@grid)
     end
 
     def print
-
+        Board.print_grid(self.hidden_ships_grid)
     end
 end

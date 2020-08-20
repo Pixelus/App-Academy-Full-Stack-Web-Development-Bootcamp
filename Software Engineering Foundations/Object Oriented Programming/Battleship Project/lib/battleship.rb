@@ -6,12 +6,14 @@ class Battleship
 
     def initialize(n)
         @player = Player.new
-        #@board = n * n
-        #@remaining_misses = n / 2
+        @board = Board.new(n)
+        @remaining_misses = (n * n) / 2
     end
 
     def start_game
-        
+        @board.place_random_ships
+        puts "Number of ships: #{@board.num_ships}"
+        @board.print
     end
 
     def lose?
@@ -23,15 +25,25 @@ class Battleship
     end
 
     def win?
+        @board.num_ships
+        if @board.num_ships == 0
+            puts "you win"
+            return true
+        end
         false
     end
 
     def game_over?
         return true if lose? || win?
-        #false
+        false
     end
 
     def turn
-        #print @remaining_misses
+        position = @player.get_move
+        @board.print
+        if !@board.attack(position)
+            @remaining_misses -= 1
+        end
+        puts "Remaining misses: #{@remaining_misses}"
     end
 end
