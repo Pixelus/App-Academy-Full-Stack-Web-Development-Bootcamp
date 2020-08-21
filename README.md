@@ -11,6 +11,7 @@ The repository will be frequently updated with my solutions to all the exercises
 
  * **[Introduction to Ruby](https://leetcode.com/explore/learn/card/become-a-web-developer/)** on LeetCode 
  * Book **[The Well-Grounded Rubyist](https://www.amazon.fr/gp/product/1617295213/ref=ox_sc_act_title_1?smid=A1X6FK5RDHNB96&psc=1)**, Third Edition, a perfect tutorial for newcomers to Ruby and a great way for experienced Rubyists to deepen their understanding of the language.
+ * Cheat Sheet **[Ruby Essentials](https://cheatography.com/pixelus/cheat-sheets/ruby-essentials/pdf/)**, memo that I made during learning Ruby
 
 ### App Academy Curriculum
 
