@@ -1,4 +1,5 @@
 #---------------------------- General Problems --------------------------------
+
 # Write a method no_dupes?(arr) that accepts an array as an arg and returns an
 # new array containing the elements that were not repeated in the array.
 #
@@ -78,14 +79,44 @@ def longest_streak(str)
 end
 
 
-------------------------------------------------------------------------
---> def bi_prime?(num)
-------------------------------------------------------------------------
+# Write a method bi_prime?(num) that accepts a number as an arg and returns a 
+# boolean indicating whether or not the number is a bi-prime. A bi-prime is a 
+# positive integer that can be obtained by multiplying two prime numbers.
+#
+# For Example:
+#    14 is a bi-prime because 2 * 7
+#    22 is a bi-prime because 2 * 11
+#    25 is a bi-prime because 5 * 5
+#    24 is not a bi-prime because no two prime numbers have a product of 24
+#
+# Examples
+# bi_prime?(14)   # => true
+# bi_prime?(22)   # => true
+# bi_prime?(25)   # => true
+# bi_prime?(94)   # => true
+# bi_prime?(24)   # => false
+# bi_prime?(64)   # => false
 
+def bi_prime?(num)
+    # Prime factors
+    factors = []
+    (2..num).each { |ele| factors << ele if num % ele == 0 && is_prime?(ele)}
 
+    # Is bi-prime?
+    factors.each_with_index do |ele, index|
+        if factors.length == 1 && ele * ele == num || 
+        factors[index].to_i * factors[index + 1].to_i == num
+            return true
+        end
+    end
+    false
+end
 
-
-
+def is_prime?(num)
+    divisor = 0
+    (1..num).each { |ele| divisor += 1 if num % ele == 0 }
+    return true if divisor == 2
+end
 
 
 # A Caesar cipher takes a word and encrypts it by offsetting each letter in 
@@ -126,17 +157,178 @@ def vigenere_cipher(message, keys)
 end
 
 
+# Write a method vowel_rotate(str) that accepts a string as an arg and returns 
+# the string where every vowel is replaced with the vowel the appears before 
+# it sequentially in the original string. The first vowel of the string should 
+# be replaced with the last vowel.
+#
+# Examples
+# vowel_rotate('computer')      # => "cempotur"
+# vowel_rotate('oranges')       # => "erongas"
+# vowel_rotate('headphones')    # => "heedphanos"
+# vowel_rotate('bootcamp')      # => "baotcomp"
+# vowel_rotate('awesome')       # => "ewasemo"
+
+def vowel_rotate(str)
+    vowels = "aeiou"
+
+    vowels_in_str = str.each_char.select { |char| char if vowels.include?(char) }
+    last_vowel = vowels_in_str.pop
+    vowels_in_str.unshift(last_vowel)
+    
+    vowel_index = 0
+    str.each_char.with_index do |char, index|
+        if vowels_in_str.include?(char)
+            str[index] = vowels_in_str[vowel_index]
+            vowel_index += 1
+        end
+    end
+
+    str
+end
 
 
+#---------------------------- Proc Problems ---------------------------------
+
+# Extend the string class by defining a String#select method that accepts a 
+# block. The method should return a new string containing characters of the 
+# original string that return true when passed into the block. If no block is 
+# passed, then return the empty string. Do not use the built-in Array#select 
+# in your solution.
+#
+# Examples
+# "app academy".select { |ch| !"aeiou".include?(ch) }   # => "pp cdmy"
+# "HELLOworld".select { |ch| ch == ch.upcase }          # => "HELLO"
+# "HELLOworld".select          # => ""
+
+class String
+    def select(&prc)
+        new_string = ""
+        self.each_char { |char| new_string << char if prc.call(char) } if prc
+        new_string
+    end
 
 
-------------------------------------------------------------------------
---> def vowel_rotate(str)
---> class String
-    def select()
---> class String
-    def map()
---> def multiply(a, b)
---> def lucasSequence(num)
---> def prime_factorization(num)
-------------------------------------------------------------------------
+# Extend the string class by defining a String#map! method that accepts a 
+# block. The method should modify the existing string by replacing every 
+# character with the result of calling the block, passing in the original 
+# character and it's index. Do not use the built-in Array#map or Array#map! in 
+# your solution.
+#
+# Examples
+# word_1 = "Lovelace"
+# word_1.map! do |ch| 
+#    if ch == 'e'
+#        '3'
+#    elsif ch == 'a'
+#        '4'
+#    else
+#        ch
+#    end
+# end
+# p word_1        # => "Lov3l4c3"
+#
+# word_2 = "Dijkstra"
+# word_2.map! do |ch, i|
+#     if i.even?
+#         ch.upcase
+#     else
+#         ch.downcase
+#     end
+# end
+# p word_2        # => "DiJkStRa"
+
+    def map!(&prc)
+        self.each_char.with_index do |char, index|
+            self[index] = prc.call(char, index)
+        end
+    end
+end
+
+
+#---------------------------- Recursion Problems ----------------------------
+
+# Write a method multiply(a, b) that takes in two numbers and returns their product.
+#
+#     You must solve this recursively (no loops!)
+#     You must not use the multiplication (*) operator
+#
+# # Examples
+# multiply(3, 5)        # => 15
+# multiply(5, 3)        # => 15
+# multiply(2, 4)        # => 8
+# multiply(0, 10)       # => 0
+# multiply(-3, -6)      # => 18
+# multiply(3, -6)       # => -18
+# multiply(-3, 6)       # => -18
+
+def multiply(a, b)
+   #Base case
+    return 0 if a == 0 || b == 0
+    
+    # Recursive step
+    if b < 0
+        -(a + multiply(a , -b - 1))
+    else
+        a + multiply(a , b - 1)
+    end
+end
+
+
+# The Lucas Sequence is a sequence of numbers. The first number of the 
+# sequence is 2. The second number of the Lucas Sequence is 1. To generate the 
+# next number of the sequence, we add up the previous two numbers. For 
+# example, the first six numbers of the sequence are: 2, 1, 3, 4, 7, 11, ...
+#
+# Write a method lucas_sequence that accepts a number representing a length as 
+# an arg. The method should return an array containing the Lucas Sequence up 
+# to the given length. Solve this recursively.
+#
+# # Examples
+# lucas_sequence(0)   # => []
+# lucas_sequence(1)   # => [2]    
+# lucas_sequence(2)   # => [2, 1]
+# lucas_sequence(3)   # => [2, 1, 3]
+# lucas_sequence(6)   # => [2, 1, 3, 4, 7, 11]
+# lucas_sequence(8)   # => [2, 1, 3, 4, 7, 11, 18, 29]
+
+def lucas_sequence(length)
+    # Base case
+    return [] if length == 0
+    return [2] if length == 1
+    return [2, 1] if length == 2
+
+    # Recursive step
+    sequence = lucas_sequence(length - 1)
+    sequence << sequence[-1] + sequence[-2]
+end
+
+
+# The Fundamental Theorem of Arithmetic states that every positive integer is 
+# either a prime or can be represented as a product of prime numbers.
+#
+# Write a method prime_factorization(num) that accepts a number and returns an 
+# array representing the prime factorization of the given number. This means 
+# that the array should contain only prime numbers that multiply together to 
+# the given num. The array returned should contain numbers in ascending order. 
+# Do this recursively.
+#
+# # Examples
+# prime_factorization(12)     # => [2, 2, 3]
+# prime_factorization(24)     # => [2, 2, 2, 3]
+# prime_factorization(25)     # => [5, 5]
+# prime_factorization(60)     # => [2, 2, 3, 5]
+# prime_factorization(7)      # => [7]
+# prime_factorization(11)     # => [11]
+# prime_factorization(2017)   # => [2017]
+
+def prime_factorization(num)
+    (2...num).each do |factor|
+        if num % factor == 0
+            other_factor = num / factor
+            return [*prime_factorization(factor), *prime_factorization(other_factor)]
+        end 
+    end
+
+    [num]
+end
